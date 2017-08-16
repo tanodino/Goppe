@@ -1,0 +1,8 @@
+SELECT ?y (count(?y) as ?number)
+FROM <http://db4g.org>	
+WHERE 
+{
+  ?x ?y ?z
+}
+GROUP BY ?y
+ORDER BY DESC (?number)

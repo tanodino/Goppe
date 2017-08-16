@@ -1,0 +1,4 @@
+SELECT ?x ?y
+WHERE{
+?x (((<http://dbpedia.org/ontology/twinCity>|(<http://dbpedia.org/ontology/twinCity>/<http://dbpedia.org/ontology/twinCity>))|(<http://dbpedia.org/ontology/twinCity>/<http://dbpedia.org/ontology/twinCity>/<http://dbpedia.org/ontology/twinCity>))|<http://dbpedia.org/ontology/isPartOf>+) ?y
+}

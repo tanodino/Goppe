@@ -1,0 +1,3 @@
+select ?x ?y where { 
+?x <http://www.w3.org/2000/01/rdf-schema#subClassOf>/!(<http://www.w3.org/2000/01/rdf-schema#labele>|^<http://www.w3.org/2000/01/rdf-schema#subClassOf>)+ ?y . 
+}

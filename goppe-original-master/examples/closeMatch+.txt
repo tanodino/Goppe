@@ -1,0 +1,5 @@
+SELECT ?y
+FROM <http://localhost:8890/geo2>
+ WHERE {
+ <http://bio2rdf.org/taxon:33208><http://www.w3.org/2004/02/skos/core#closeMatch>+ ?y . 
+}

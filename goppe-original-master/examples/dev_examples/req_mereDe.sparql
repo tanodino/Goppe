@@ -1,0 +1,3 @@
+select ?x1 ?x2 where {
+  ?x1 <http://example.org/family/mereDe> ?x2 .
+}

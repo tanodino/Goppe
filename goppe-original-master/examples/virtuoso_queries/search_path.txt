@@ -1,0 +1,6 @@
+SELECT ?x ?y
+FROM <http://db4g.org>	
+WHERE 
+{
+  ?x (<http://dbpedia.org/ontology/isPartOf> ?y
+}

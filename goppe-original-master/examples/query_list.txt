@@ -1,0 +1,7 @@
+SELECT ?y (count(?y) as ?number)
+WHERE 
+{
+  ?x ?y ?z
+}
+GROUP BY ?y
+ORDER BY DESC (?number)

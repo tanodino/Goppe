@@ -1,0 +1,4 @@
+<http://example.org/S1> <http://example.org/a> <http://example.org/S2> .
+<http://example.org/S1> <http://example.org/d> <http://example.org/S2> .
+<http://example.org/S2> <http://example.org/d> <http://example.org/S1> .
+<http://example.org/S3> <http://example.org/a> <http://example.org/S1> .

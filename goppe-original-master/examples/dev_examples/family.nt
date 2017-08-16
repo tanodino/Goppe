@@ -1,0 +1,7 @@
+A <http://example.org/family/mereDe> C .
+A <http://example.org/family/femmeDe> B .
+B <http://example.org/family/hommeDe> A .
+B <http://example.org/family/pereDe> C .
+C <http://example.org/family/mereDe> E .
+C <http://example.org/family/mereDe> F .
+D <http://example.org/family/pereDe> F .

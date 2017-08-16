@@ -1,0 +1,6 @@
+PREFIX f: <http://example.org/family/>
+
+select ?x1 ?x2 where {
+  ?x1 (f:mum+ | f:dad)/f:sister   ?x2 .
+  ?x1 (f:mum+ | f:dad)/^f:sister|f:brother   ?x2 .
+}
